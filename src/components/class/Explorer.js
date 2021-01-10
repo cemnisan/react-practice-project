@@ -10,15 +10,15 @@ class Explorer extends Component {
                     {
                         resumeData.explorerCard.map(item =>{
                             return(
-                                <div className="col-md-4">
-                                    <div className="card mb-3">
+                                <div className="col-md-4 d-none d-xl-block">
+                                    <div className="card rounded mb-3">
                                         <div className="row g-0">
                                             <div className="col-md-4">
-                                                <img src={item.picture} alt="..."></img>
+                                                <img className="img-fluid" src={item.picture} alt="..."></img>
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="card-body">
-                                                    <h6 className="py-3">{item.title}</h6>
+                                                    <h6 className="my-3">{item.title}</h6>
                                                 </div>
                                             </div>
                                         </div>

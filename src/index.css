@@ -35,13 +35,13 @@ code {
 
 .centered{
   position: absolute;
-  top: 155%;
+  top: 165%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .centeredBtn{
   position: absolute;
-  top: 170%;
+  top: 180%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #FFFFFF;

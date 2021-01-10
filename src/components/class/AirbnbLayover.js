@@ -5,11 +5,12 @@ class AirbnbLayover extends Component {
     render() {
         let resumeData = this.props.resumeData;
         return (
-            <div className="container-fluid p-5">
+            <div>
                 {
                     resumeData.layover.map(item => {
+                        
                         return(
-                            <div>
+                            <div className="container-fluid p-5">
                                 <div className="airBnb-Text">
                                     <h4>{item.title}</h4>
                                     <p>{item.paragraph}</p>

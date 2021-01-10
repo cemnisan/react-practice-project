@@ -6,8 +6,8 @@
 
 Projeyi indirip, aşağıdaki komutla çalıştırabilirsiniz:
 
-```npm
-start
+```
+npm start
 ```
 
 

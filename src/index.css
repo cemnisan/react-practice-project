@@ -29,3 +29,20 @@ code {
   color: #FFFFFF;
 }
 
+#airBnb-imageID{
+  width: 2000px;
+}
+
+.centered{
+  position: absolute;
+  top: 155%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centeredBtn{
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+}

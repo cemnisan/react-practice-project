@@ -2,7 +2,7 @@ import React from 'react'
 
 function NavbarForm() {
     return (
-        <div className="row px-3 mx-5 py-3 my-5">
+        <div className="row px-3 mx-3 py-3 my-5">
             <div className="col-md-4">
                 <div className="card">
                     <div className="card-body ">

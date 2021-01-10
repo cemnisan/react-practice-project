@@ -6,7 +6,7 @@ class Explorer extends Component {
         let resumeData = this.props.resumeData;
         return (
             <div className="container-fluid mt-5">
-                <div className="row mx-5">
+                <div className="row mx-4">
                     {
                         resumeData.explorerCard.map(item =>{
                             return(
@@ -14,7 +14,7 @@ class Explorer extends Component {
                                     <div className="card rounded mb-3">
                                         <div className="row g-0">
                                             <div className="col-md-4">
-                                                <img className="img-fluid" src={item.picture} alt="..."></img>
+                                                <img className="img-fluid rounded-start" src={item.picture} alt="..."></img>
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="card-body">

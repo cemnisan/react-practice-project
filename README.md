@@ -10,4 +10,12 @@ Projeyi indirip, aşağıdaki komutla çalıştırabilirsiniz:
 npm start
 ```
 
+## Responsive ?
+
+```
+responsive currently does not work!
+            ^_^
+```
+
+
 

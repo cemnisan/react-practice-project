@@ -46,3 +46,14 @@ code {
   transform: translate(-50%, -50%);
   background-color: #FFFFFF;
 }
+
+.col-img-top{
+  width: 340px;
+  height: 240px;
+}
+
+#col-border{
+  border:2px solid;
+  width: 120px;
+  text-align: center;
+}

@@ -9,8 +9,14 @@ import cardPicTwo from './components/image/9.png'
 import cardPicThree from './components/image/10.png'
 import cardPicFour from './components/image/11.png'
 import cardPicFive from './components/image/12.png'
-
-
+import widePic from './components/image/13.png'
+import widePicTwo from './components/image/14.png'
+import widePicThree from './components/image/15.png'
+import widePicFour from './components/image/16.png'
+import widePicFive from './components/image/17.png'
+import widePiceSix from './components/image/18.png'
+import widePicSeven from './components/image/19.png'
+import widePicEigth from './components/image/20.png'
 
 let resumeData = {
     "navbar":["Français (FR)","EUR €","Devenir hôte","Créer son expérience","Aide","Inscription","Connexion"],
@@ -85,6 +91,56 @@ let resumeData = {
             "cardText":"Bosnia and Herzegovina",
             "cardTitle":"2 Nights PACKAGE All Inclusive",
             "cardParagraph":"À partir de 577€/personne - 3 jours."
+        }
+    ],
+    "worldwideCard":[
+        {
+            "title":"SUPERHOST",
+            "titleTwo":"Toledo",
+            "picture":widePic,
+            "content":"À partir de 577€/personne - 3 jours"
+        },
+        {
+            "title":"SUPERHOST",
+            "titleTwo":"Mesa",
+            "picture":widePicTwo,
+            "content":"À partir de 577€/personne - 3 jours"
+        },
+        {
+            "title":"SUPERHOST",
+            "titleTwo":"Utica",
+            "picture":widePicThree,
+            "content":"À partir de 577€/personne - 3 jours"
+        },
+        {
+            "title":"SUPERHOST",
+            "titleTwo":"South Bend",
+            "picture":widePicFour,
+            "content":"À partir de 577€/personne - 3 jours"
+        },
+        {
+            "title":"SUPERHOST",
+            "titleTwo":"Toledo",
+            "picture":widePicFive,
+            "content":"À partir de 577€/personne - 3 jours"
+        },
+        {
+            "title":"SUPERHOST",
+            "titleTwo":"Mesa",
+            "picture":widePiceSix,
+            "content":"À partir de 577€/personne - 3 jours"
+        },
+        {
+            "title":"SUPERHOST",
+            "titleTwo":"Utica",
+            "picture":widePicSeven,
+            "content":"À partir de 577€/personne - 3 jours"
+        },
+        {
+            "title":"SUPERHOST",
+            "titleTwo":"South Bend",
+            "picture":widePicEigth,
+            "content":"À partir de 577€/personne - 3 jours"
         }
     ]
 }

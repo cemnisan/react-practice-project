@@ -5,6 +5,10 @@ class AdventureCards extends Component {
         let resumeData = this.props.resumeData;
         return (
             <div className="container-fluid">
+                <div className="adventureTitle mx-2">
+                    <h4>Découvrez les aventures Airbnb</h4>
+                    <p>Voyages de plusieurs jours organisés par des experts locaux avec activités, repas et logements compris</p>
+                </div>
                <div className="row">
                    {
                        resumeData.adventureCard.map(item=>{
